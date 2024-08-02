@@ -1,0 +1,13 @@
+prefix=/Users/preetyrai/QALAMA@/E-Commerce-Chatbot/ecom
+exec_prefix=/Users/preetyrai/QALAMA@/E-Commerce-Chatbot/ecom
+libdir=/Users/preetyrai/QALAMA@/E-Commerce-Chatbot/ecom/lib
+sharedlibdir=/Users/preetyrai/QALAMA@/E-Commerce-Chatbot/ecom/lib
+includedir=/Users/preetyrai/QALAMA@/E-Commerce-Chatbot/ecom/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
