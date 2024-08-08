@@ -1,4 +1,3 @@
-
 import pandas as pd
 from langchain_core.documents import Document
 
@@ -28,3 +27,5 @@ def dataconveter():
         doc = Document(page_content=entry['review'], metadata=metadata)
         docs.append(doc)
     return docs
+
+
